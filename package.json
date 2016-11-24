@@ -1,0 +1,40 @@
+{
+  "name": "@johnpaulvaughan/itunes-music-library-id",
+  "version": "1.0.4",
+  "description": "Extracts the users local iTunes music library ID from the iTunes Library XML file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@johnpaulvaughan/promise-it-exists": "^1.0.2",
+    "byline": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "0.0.32",
+    "@types/node": "^6.0.48",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-files": "^1.4.0",
+    "mocha": "^3.1.2",
+    "typescript": "^2.0.10"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpaulvaughan/itunes-music-library-id.git"
+  },
+  "keywords": [
+    "itunes",
+    "library",
+    "id"
+  ],
+  "author": "John Paul Vaughan <johnpaulvaughan@hotmail.com> (http://johnpaulvaughan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnpaulvaughan/itunes-music-library-id/issues"
+  },
+  "homepage": "https://github.com/johnpaulvaughan/itunes-music-library-id#readme"
+}
